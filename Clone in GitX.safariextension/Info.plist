@@ -51,6 +51,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://matthias.im/cloneingitx/update.plist</string>
 	<key>Website</key>
 	<string>http://matthias.im</string>
 </dict>
