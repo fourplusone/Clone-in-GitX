@@ -1,0 +1,12 @@
+{
+  "name": "Clone in GitX",
+  "version": "0.1",
+  "description": "Adds \"Clone in GitX\" Buttons to Github",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["style.css"],
+      "js": ["jquery.min.js", "inject.js"]
+    }
+  ]
+}
