@@ -25,7 +25,7 @@
 			<key>End</key>
 			<array>
 				<string>jquery.min.js</string>
-				<string>inject.js</string>
+				<string>inject-gh.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
@@ -34,7 +34,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Adds "Clone in GitX" Buttons to Github</string>
+	<string>Adds &quot;Clone in GitX&quot; Buttons to Github</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>

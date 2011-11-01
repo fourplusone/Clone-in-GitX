@@ -6,7 +6,7 @@
     {
       "matches": ["https://github.com/*"],
       "css": ["style.css"],
-      "js": ["jquery.min.js", "inject.js"]
+      "js": ["jquery.min.js", "inject-gh.js"]
     }
   ]
 }
