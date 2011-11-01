@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Matthias Bartelmeß</string>
 	<key>Builder Version</key>
-	<string>7534.48.3</string>
+	<string>7534.51.22</string>
 	<key>CFBundleDisplayName</key>
 	<string>Clone in GitX</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1</string>
+	<string>0.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -26,6 +26,7 @@
 			<array>
 				<string>jquery.min.js</string>
 				<string>inject-gh.js</string>
+				<string>inject-bb.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
@@ -34,7 +35,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Adds &quot;Clone in GitX&quot; Buttons to Github</string>
+	<string>Adds "Clone in GitX" Buttons to Github</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -44,6 +45,7 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>github.com</string>
+				<string>bitbucket.org</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>

@@ -1,12 +1,18 @@
 {
   "name": "Clone in GitX",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Adds \"Clone in GitX\" Buttons to Github",
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
       "css": ["style.css"],
       "js": ["jquery.min.js", "inject-gh.js"]
+    },
+    {
+      "matches": ["https://bitbucket.org/*"],
+      "css": ["style.css"],
+      "js": ["jquery.min.js", "inject-bb.js"]
     }
+
   ]
 }
